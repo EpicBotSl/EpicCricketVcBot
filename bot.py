@@ -1,4 +1,5 @@
-import config 
+import os
+from config import Config
 from config import *
 import logging
 from pyrogram import Client, idle
