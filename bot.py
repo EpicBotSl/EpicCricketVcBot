@@ -22,7 +22,7 @@ bot = Client(
 if __name__ == "__main__":
     print("⌛Updating & Analyzing bot⏳")
     try:
-        app.start()
+        bot.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
