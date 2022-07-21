@@ -1,0 +1,10 @@
+heroku3
+tgcrypto
+ffmpeg-python
+python-dotenv
+youtube_search
+pyrogram==1.4.16
+pyrogram
+py-tgcalls==0.8.0
+wrapt_timeout_decorator
+youtube_search_python==1.4.9
