@@ -8,3 +8,6 @@ pyrogram
 py-tgcalls==0.8.0
 wrapt_timeout_decorator
 youtube_search_python==1.4.9
+psycopg2
+pyromod
+TgCrypto
