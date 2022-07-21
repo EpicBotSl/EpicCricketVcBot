@@ -11,3 +11,4 @@ youtube_search_python
 psycopg2
 pyromod
 TgCrypto
+yt_dlp
