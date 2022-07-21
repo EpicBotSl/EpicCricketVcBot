@@ -1,5 +1,5 @@
 from asyncio import sleep
-from config import *
+from config import Config
 from pyrogram import Client
 from helpers.log import LOGGER
 from pyrogram.errors import MessageNotModified
