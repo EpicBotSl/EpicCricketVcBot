@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 
-app = Client(
+bot = Client(
     "Epic Developers",
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
@@ -27,7 +27,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    uname = app.get_me().username
+    uname = bot.get_me().username
     print(f"""@{uname} is Accepted
 ╔════╗────────╔═══╗
 ║╔╗╔╗║────────║╔══╝
@@ -39,5 +39,5 @@ if __name__ == "__main__":
 ──────────────────╚╝
 Join For update @EpicBotsSl""")
     idle()
-    app.stop()
+    bot.stop()
     print("Bot stopped. Alvida!")
