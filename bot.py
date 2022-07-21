@@ -18,7 +18,7 @@ bot = Client(
     plugins=dict(root="module")
 )
 
-print(f"""@{uname} is Accepted
+print(f"""Cricket bot is Accepted
 ╔════╗────────╔═══╗
 ║╔╗╔╗║────────║╔══╝
 ╚╝║║╠╩═╦══╦╗╔╗║╚══╦══╦╦══╗
